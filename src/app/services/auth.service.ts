@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 import { User } from '../models/user.model';
 import { AuthResponse } from '../models/auth-response.model';
 
-const AUTH_API = 'http://localhost:8080/api/auth/';
+const AUTH_API = '/api/auth/';
 
 const httpOptions = {
   headers: new HttpHeaders({ 'Content-Type': 'application/json' })
